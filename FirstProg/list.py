@@ -1,5 +1,8 @@
 grocery_list = ["rice","potato","tomato"]
-print(grocery_list)
-grocery_list.append("water")
-print(grocery_list)
+for item in grocery_list:
+    if item == "water":
+        continue
+    print(item)
+
+print("FInished")
 
